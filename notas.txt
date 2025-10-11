@@ -1,0 +1,13 @@
+*BOOTSTRAP
+npm install bootstrap react-bootstrap
+en main.jsx debemos importar => import 'bootstrap/dist/css/bootstrap.min.css'; 
+
+*ROUTER-DOM
+npm install react-router-dom
+
+*FONT AWESOME
+npm install @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+npm install @fortawesome/free-brands-svg-icons
+
+*VIA PLACE HOLDER
+api publica   https://placehold.co/
