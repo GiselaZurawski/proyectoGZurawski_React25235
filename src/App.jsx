@@ -1,11 +1,12 @@
 //import "./App.css";
-//import "bootstrap/dist/css/bootstrap.min.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Inicio from "./components/Inicio";
+import Inicio from "./pages/Inicio";
 import Login from "./components/Login";
-import Productos from "./components/Productos";
+import Productos from "./pages/Productos";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import ProductoDetalle from "./components/ProductoDetalle";
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 				<Route path="/" element={<Inicio />} />
 				<Route path="/Productos" element={<Productos />} />
 				<Route path="/Login" element={<Login />} />
+				<Route path="/Productos/:id" element={<ProductoDetalle />} />
 			</Routes>
 			<Footer />
 		</div>

@@ -32,7 +32,10 @@ const Login = () => {
 									/>
 								</Form.Group>
 
-								<Button variant="primary" type="submit" className="w-100">
+								<Button
+									type="submit"
+									className="w-100"
+									style={{ backgroundColor: "#8a6497ff", border: "none" }}>
 									Ingresar
 								</Button>
 							</Form>
