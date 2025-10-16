@@ -1,0 +1,14 @@
+.style-card {
+	border-radius: 12px;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	background-color: #f2e6f6 !important;
+}
+
+.style-card:hover {
+	transform: scale(1.03);
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.style-card:not(:hover) {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
