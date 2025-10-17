@@ -1,4 +1,4 @@
-import Productos from "./Productos";
+import Productos from "../components/Productos";
 import Carrito from "./Carrito";
 import { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";

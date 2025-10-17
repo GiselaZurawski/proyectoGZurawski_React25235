@@ -1,5 +1,5 @@
 import { Row, Col } from "react-bootstrap";
-import ProductosCarrito from "../components/ProductosCarrito";
+import ProductosCarrito from "./ProductosCarrito";
 
 const Productos = ({ productos, agregarAlCarrito }) => {
 	return (

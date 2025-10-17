@@ -2,21 +2,6 @@
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-.style-card {
-	border-radius: 12px;
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
-	background-color: #f2e6f6 !important;
-}
-
-.style-card:hover {
-	transform: scale(1.03);
-	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-}
-
-.style-card:not(:hover) {
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
 .style-detail {
 	max-width: 600px;
 	padding: 1.5rem;

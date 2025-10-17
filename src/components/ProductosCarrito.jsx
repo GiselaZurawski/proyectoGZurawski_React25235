@@ -1,9 +1,10 @@
 import { Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import "./ProductosCarrito.css";
 
 const ProductosCarrito = ({ producto, agregarAlCarrito }) => {
 	return (
-		<Card className="h-100 d-flex flex-column">
+		<Card className="h-100 d-flex flex-column style-card">
 			<Card.Img
 				variant="top"
 				src={producto.image}
